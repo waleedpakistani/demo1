@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(h1_hero.jpg.webp);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  color: white;
+}
+.menu a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.menu a::before {
+  content: "";
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border-bottom: orange;
+  transition: 0.4s linear;
+}
+.menu a:hover::before {
+  width: 90%;
+}
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  font-size: 80px;
+}
+.btn {
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  margin-left: 40%;
+  padding: 12px 34px;
+  font-size: 20px;
+  border-radius: 45px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.text1 {
+  margin-top: 80px;
+  margin-left: 10%;
+  font-size: 20px;
+  color: orange;
+}
+.text2 {
+  margin-left: 10%;
+  margin-top: 20px;
+  color: black;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.text3 {
+  margin-left: 8%;
+  color: black;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.text4 {
+  margin-left: 14%;
+  color: black;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.nice {
+  height: 290px;
+  width: 200px;
+  margin-left: 50%;
+  margin-top: -290px;
+}
+.nice1 {
+  height: 290px;
+  width: 200px;
+  margin-left: 75%;
+  margin-top: -290px;
+}
+.nice2 {
+  margin-top: 160px;
+  text-align: center;
+  color: orange;
+  font-size: 20px;
+}
+.nice3 {
+  margin-top: 20px;
+  margin-left: 35%;
+  font-size: 40px;
+}
+.nice4 {
+  margin-left: 10%;
+  margin-top: 40px;
+  font-size: 26px;
+}
+.nice5 {
+  margin-left: 8%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.nice6 {
+  margin-left: 40%;
+  margin-top: 40px;
+  font-size: 26px;
+  margin-top: -115px;
+}
+.nice7 {
+  margin-left: 36%;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.nice8 {
+  margin-left: 70%;
+  margin-top: 40px;
+  font-size: 26px;
+  margin-top: -115px;
+}
+.nice9 {
+  margin-left: 65%;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.design {
+  margin-top: 40px;
+  width: 300px;
+}
+.product {
+  display: flex;
+  gap: 50px;
+}
+.item {
+  margin-left: 80px;
+  margin-top: 20px;
+
+  width: 450px;
+}
+.item1 {
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 20px;
+  width: 450px;
+  color: #dfa974;
+}
+.products {
+  display: flex;
+  gap: -10px;
+}
+.products1 {
+  display: flex;
+  gap: -10px;
+}
+.news1 {
+  margin-top: 80px;
+  text-align: center;
+  color: #dfa974;
+  font-size: 20px;
+}
+.news2 {
+  margin-top: 20px;
+  text-align: center;
+
+  font-size: 60px;
+}
+.news3 {
+  margin-left: 25%;
+  font-size: 20px;
+}
+.news4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.news5 {
+  margin-left: 47%;
+  margin-top: 50px;
+}
+.idea {
+  margin-top: 80px;
+  text-align: center;
+  color: #dfa974;
+  font-size: 20px;
+}
+.idea1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.history {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.history1 {
+  display: flex;
+  gap: 20px;
+}
+.tiger1 {
+  margin-top: -150px;
+  margin-left: 60px;
+  color: #dfa974;
+  font-size: 20px;
+}
+.heart {
+  color: white;
+  margin-left: 60px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.heart1 {
+  color: white;
+  margin-left: 60px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.tiger2 {
+  margin-left: 37%;
+  margin-top: -120px;
+}
+.tiger3 {
+  color: #dfa974;
+  font-size: 20px;
+}
+.heart2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.heart3 {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.tiger4 {
+  margin-left: 70%;
+  margin-top: -120px;
+}
+.tiger5 {
+  color: #dfa974;
+  font-size: 20px;
+}
+.heart4 {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.heart5 {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.waleed1 {
+  margin-top: 80px;
+  margin-left: 100px;
+  width: 700px;
+}
+.waleed2 {
+  height: 368px;
+  margin-left: 120px;
+}
+.ahmad1 {
+  margin-top: -100px;
+  margin-left: 120px;
+  color: #dfa974;
+  font-size: 20px;
+}
+.ahmad2 {
+  margin-left: 120px;
+  color: white;
+  font-size: 26px;
+}
+.ahmad3 {
+  margin-left: 120px;
+  color: white;
+  font-size: 20px;
+}
+.ahmad4 {
+  margin-left: 70%;
+  margin-top: -70px;
+}
+.ahmad5 {
+  color: #dfa974;
+  font-size: 20px;
+}
+.ahmad6 {
+  font-size: 30px;
+  color: white;
+}
+.ahmad7 {
+  font-size: 18px;
+  color: white;
+}
+.footer {
+  background-color: #1e3d60;
+  height: 400px;
+  width: 100%;
+  margin-top: 60px;
+}
+.khan {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.khan1 {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 20px;
+  color: gray;
+}
+.icons {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 88px;
+}
+.icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #dfa974;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #dfa974;
+  margin-right: 8px;
+}
+.icons a:hover {
+  background-color: transparent;
+  color: #dfa974;
+}
+.caption {
+  margin-top: 80px;
+}
+.caption a {
+  text-decoration: none;
+  margin-left: 80px;
+  color: gray;
+  padding: 3px 8px;
+  font-size: 18px;
+}
+.ik {
+  margin-left: 40%;
+  margin-top: -130px;
+  color: #dfa974;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.ik2 {
+  color: gray;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.ik3 {
+  color: gray;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.ik4 {
+  color: gray;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.ik5 {
+  color: gray;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.lahore {
+  margin-left: 100px;
+}
+.isl {
+  margin-top: -130px;
+  color: #dfa974;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.search input {
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: -20px;
+}
+.sea {
+  padding: 10px;
+}
+.ik6 {
+  margin-left: -10px;
+  color: gray;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.textfooter {
+  margin-left: 60%;
+  margin-top: -20px;
+  font-size: 20px;
+  color: gray;
+}
